@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('../images/bg.jpg');
+    background-size: 100%;  
+    font-family: 'Courier New', Courier, monospace; 
+}
+.jumbotron {
+    background: rgba(255, 255, 255, 0);   
+    overflow: hidden;
+    color: #b39f88;
+    padding-top: 4%
+}
+
+hr {
+    margin-top: 1   0px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #b39f88;
+}
+
+img {
+    border: 1px solid #b39f88;
+}
+
+#type{
+	position: relative;
+	top: 40%;
+    text-align: center;
+    margin-top: 100px;
+    color: #b39f88;
+}
+
+#type:after{
+	position: relative;
+    animation: blink 0.5s infinite;
+    color: #b39f88;
+}
+@keyframes blink{
+	from{opacity: 1;}
+	to{opacity: 0;}
+}
